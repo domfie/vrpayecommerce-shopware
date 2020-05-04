@@ -1,0 +1,126 @@
+*{margin:0; padding:0;}
+.col-left{
+    float:none !important;
+    width:0 !important;
+}
+.col-main{
+    float:none !important;
+    width:100% !important;
+}
+.wpwl-button{
+    margin-top: 10px !important;
+}
+.btn_cancel {
+    float: left;
+    color: #fff;
+    background-color: #aaa;
+    border-color: #999;
+    border-radius: 4px;
+}
+.btn_cancel:hover {
+    color: #fff;
+    background-color: #999;
+}
+.page-title h1{
+    text-align: center !important;
+}
+
+.payment-logo{
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 0 20px;
+}
+.content--wrapper{
+    margin-top: 30px;
+}
+.wpwl-form{
+    max-width: 40em !important;
+    margin: 0 auto 2px !important;
+}
+.wpwl-form-virtualAccount-PAYPAL{
+    border:1px solid #ccc;
+    border-radius:4px;
+    -webkit-box-shadow:2px 3px 5px 1px #999;
+    box-shadow:2px 3px 5px 1px #999;
+}
+.frame{
+    margin:30px auto 10px auto;
+    width: 100%;
+    max-width: 440px;
+    padding:0;
+}
+.frametest{
+    border:10px solid red;
+}
+.testmode{
+    margin:0 auto !important;
+    padding:3px 0 10px 0;
+    width: 100%;
+    font-size: 13px !important;
+    font-weight: bold;
+    color: #fff !important;
+    background-color: red;
+    text-align: center;
+    max-width: 440px;
+}
+.error-box{
+    margin: 10px 0px;
+    background-color:#FFE6E6;
+    border:1px solid #FF8E90;
+    padding:5px;
+}
+
+.wpwl-control{
+    padding: 2px !important;
+}
+
+.merchant-location-description{
+    font-size:12px;
+    margin:0 auto 0 auto;
+    width: 100%;
+    max-width: 430px;
+    padding:0 5px;
+    text-align: left;
+}
+/* css for shopware */
+.wpwl-control-accountHolder, .wpwl-control-accountIban, .wpwl-control-accountBic,
+.wpwl-control-expiry, .wpwl-control-cardHolder, .wpwl-control-accountBankBic{
+    width: 100% !important;
+}
+
+/* css for paypalsaved */
+.wpwl-button-brand {
+    min-width: auto;
+}
+.wpwl-form-virtualAccount-PAYPAL .payment-brand{
+    width: 146px;
+    padding-top: 15px;
+    margin: 0 auto !important;
+}
+.wpwl-form-virtualAccount-PAYPAL .btn-box{
+    padding: 13px 13px 23px;
+}
+
+/*css for one click saved payment */
+.wpwl-wrapper-registration-details{
+    width: 70% !important;
+    padding: 0 0 0 40px !important;
+}
+.wpwl-wrapper-registration-number, .wpwl-wrapper-registration-expiry{
+    width: 50%;
+    padding: 0;
+    text-align: left;
+}
+.wpwl-wrapper-registration-holder{
+    width:100%;
+    padding: 0;
+    text-align: left;
+}
+.wpwl-wrapper-registration-registrationId, .wpwl-brand-inline{
+    margin: 12px 0 !important;
+}
+
+
+
+
+

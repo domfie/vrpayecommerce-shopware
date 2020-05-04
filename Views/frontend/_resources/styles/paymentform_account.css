@@ -1,0 +1,255 @@
+*{margin:0; padding:0;}
+/* My Payment Information */
+.wpwl-button{
+    margin-top: 10px !important;
+}
+.btn_cancel {
+    float: left;
+    color: #fff;
+    background-color: #aaa;
+    border-color:#999;
+    border-radius: 4px;
+}
+.btn_cancel:hover {
+    color: #fff;
+    background-color: #999;
+}
+.page-title h1{
+    text-align: left !important;
+}
+
+.box-unreg{
+    padding-bottom:20px;
+}
+.page-title .pt-center{
+    text-align: center !important;
+}
+.text-unreg{
+    margin-bottom: 10px;
+}
+.group-img{
+    float: left;
+    width: 125px;
+    margin: 5px 0;
+}
+.group {
+    padding : 10px 0px;
+}
+.group-top{
+    padding : 0 0 10px 0 !important;
+}
+.group-separator {
+    float:left;
+    width: 100%;
+    padding-top : 15px;
+}
+.group-list {
+    width : 100%;
+    /*float : left;
+*/}
+.group-add {
+    width:100%;
+}
+.card_logo {
+    height : 35px;
+    margin-right: 10px;
+    float : left;
+}
+.card_info, .dd_info, .paypal_info {
+    width : 33%;
+    float : left;
+    min-width: 233px;
+    max-width: 370px;
+    min-height: 35px;
+    padding: 7px;
+    margin: 5px 10px 5px 0;
+    vertical-align: middle;
+    border-radius: 3px;
+    box-sizing: border-box;
+    box-shadow: 0 1px 1px #dadae5;
+    border: 1px solid #dadae5;
+    border-top-color: #cbcbdb;
+    background: #f8f8fa;
+}
+.btn {
+    height: 35px !important;
+    margin-right: 5px !important;
+}
+.group-button {
+    float: left;
+    margin: 5px 0 !important;
+    min-width: 345px;
+}
+.btnDefault {
+    float : left;
+    width : 18%;
+    min-width: 160px;
+    max-width: 160px;
+}
+.btnChange {
+    float : left;
+    min-width: 70px;
+}
+.btnDelete {
+    float : left;
+    min-width: 70px;
+}
+.btnAdd {
+    float : left;
+    width: 85px;
+    padding : 10px 0 0 0 !important;
+}
+.btnCustom {
+    height: 35px !important;
+    font-size: 13px !important;
+}
+.title-center{
+    text-align: center;
+}
+.register-tooltip{
+    font-size:11px;
+    margin:10px auto;
+    width: 100%;
+    max-width: 430px;
+    padding:0 5px;
+    text-align: center;
+}
+
+.wpwl-control{
+    padding: 2px !important;
+}
+
+@media screen and (min-width: 1259px){
+
+.content--wrapper
+{
+    margin-left : 260px !important;
+}
+
+}
+
+@media screen and (min-width: 500px) and (max-width: 793px){
+
+.content--wrapper
+{
+    margin : 0 auto !important;
+}
+.card_info, .dd_info, .paypal_info {
+    margin: 5px 0;
+    width: 335px;
+}
+.group-button {
+    margin-left: 125px !important;
+}
+
+.panel{
+    display: table !important;
+    margin: 0 auto;
+}
+.group{
+    display: table;
+    margin: 0 auto !important;
+}
+.group-list {
+    width : 80%;
+    display: table;
+    margin: 0 auto;
+}
+.group-add {
+    display: table;
+    margin: 0 auto;
+}
+.btnAdd{
+    float: none;
+    margin: 0 auto;
+}
+
+}
+
+@media screen and (min-width: 560px) and (max-width: 793px){
+.content-main--inner{
+    padding: 0px 30px 16px 30px !important;
+}
+.account--welcome{
+    display: table !important;
+    margin: 0 auto;
+}
+
+
+}
+
+@media screen and (max-width: 499px){
+
+.card_info, .dd_info, .paypal_info {
+    width : 100%;
+    max-width: none;
+    margin: 5px 0;
+}
+.btn {
+    margin-right: 5px !important;
+}
+
+}
+
+/*shopware notif */
+.register--content .alert{
+    margin: 0 !important;
+}
+
+.payment-logo{
+    text-align: center;
+    margin:0 auto;
+    padding:10px 0 20px;
+}
+
+.wpwl-form{
+    max-width: 40em !important;
+    margin: 0 auto 2px !important;
+}
+.frametest{
+    margin:30px auto;
+    width: 100%;
+    border:10px solid red;
+    max-width: 440px;
+    padding:0;
+}
+.testmode{
+    margin:0 auto !important;
+    padding:3px 0 10px 0;
+    width: 100%;
+    font-size: 13px !important;
+    font-weight: bold;
+    color: #fff !important;
+    background-color: red;
+    text-align: center;
+    max-width: 440px;
+}
+.success-box{
+    margin: 10px 0px;
+    background-color:#EFF5EA;
+    border:1px solid #11B400;
+    padding:5px;
+}
+.error-box{
+    margin: 10px 0px;
+    background-color:#FFE6E6;
+    border:1px solid #FF8E90;
+    padding:5px;
+}
+/* css for shopware */
+input{
+    width: 100% !important;
+}
+.cancel_form, .submit_form{
+    float: left;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
